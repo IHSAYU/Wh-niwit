@@ -10,3 +10,5 @@ while True:
         print("roll-dice - rolls a dice")
     elif user_input == "roll-dice":
         print(random.randint(1, 6))
+    else:
+        print("Unknown Command")
