@@ -10,6 +10,7 @@ while True:
     if user_input == "help":
         print("roll-dice - rolls a dice")
         print("touch-grass - makes you touch grass")
+        print("about - Shows about Niwit")
     elif user_input == "roll-dice":
         print(random.randint(1, 6))
     elif user_input == "touch-grass":
@@ -22,5 +23,10 @@ while True:
         print("Now go touch some grass IRL")
         time.sleep(2)
         break
+    elif user_input == "about":
+        print("Wh-niwit")
+        print("We Have No Idea What Is This")
+        print("by IHSAYU, and Open-source (2026) You can come add a feature idk")
+        print("https://github.com/IHSAYU/Wh-niwit")
     else:
         print("Unknown Command")
