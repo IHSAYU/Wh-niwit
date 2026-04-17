@@ -44,6 +44,20 @@ while True:
             print("Bye !")
         time.sleep(1)
         break
-    
+
+    elif user_input == "67":
+        print("Bro... you really want to do it ? Y/N")
+        sise_input = input("Y/N>")
+        if sise_input == "Y":
+            sise_while = 67
+            while True:
+                print("67")
+                time.sleep(0.1)
+                sise_while -= 1
+                if sise_while == 0:
+                    break
+        if sise_input == "N":
+            print("thanks")
+            break
     else:
         print("Unknown Command")
