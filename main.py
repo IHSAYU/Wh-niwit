@@ -58,6 +58,7 @@ while True:
                     break
         if sise_input == "N":
             print("thanks")
+            time.sleep(1)
             break
     else:
         print("Unknown Command")
