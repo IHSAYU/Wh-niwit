@@ -30,8 +30,8 @@ while True:
     elif user_input == "about":
         print("Wh-niwit")
         print("We Have No Idea What Is This")
-        print("by IHSAYU, and Open-source (2026) You can come add a feature idk")
-        print("https://github.com/IHSAYU/Wh-niwit")
+        print("by Urban, and Open-source (2026) You can come add a feature idk")
+        print("https://github.com/urbanssbu/Wh-niwit")
     
     elif user_input == "exit":
         if random.randint(1, 4) == 1:
