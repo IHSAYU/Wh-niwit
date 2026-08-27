@@ -10,6 +10,7 @@ while True:
     if user_input == "help":
         print("roll-dice - rolls a dice")
         print("touch-grass - makes you touch grass")
+        print("show me a magic trick - read the name")
         print("about - shows about Niwit")
         print("exit - exits Niwit")
     
@@ -18,13 +19,13 @@ while True:
     
     elif user_input == "touch-grass":
         print("You touched grass!")
-        time.sleep(5)
+        time.sleep(5.0)
         print("You really thought you would get away with that ?")
-        time.sleep(2)
+        time.sleep(2.0)
         print("Type touch-grass in a pathetic open-source program ?")
-        time.sleep(2)
+        time.sleep(2.0)
         print("Now go touch some grass IRL")
-        time.sleep(2)
+        time.sleep(2.0)
         break
     
     elif user_input == "about":
@@ -60,5 +61,21 @@ while True:
             print("thanks")
             time.sleep(1)
             break
+
+
+    elif user_input == "show me a magic trick":
+        print("Think of a number between 1-10")
+        time.sleep(5.0)
+        print("Then Multiply It By 3")
+        time.sleep(5.0)
+        print("Then Divide It By 2")
+        time.sleep(5.0)
+        print("Then Add 2")
+        time.sleep(5.0)
+        print("okay")
+        time.sleep(5.0)
+        break
+
+    
     else:
         print("Unknown Command")
